@@ -1,0 +1,63 @@
+.add{
+    background-color: palegoldenrod;
+    padding: 4em;
+
+}
+.subtract{
+    background-color: paleturquoise;
+    padding: 4em;
+
+
+}
+.multiply{
+    background-color: palevioletred;
+    padding: 4em;
+
+}
+input{
+    width: 100%;
+    margin: auto;
+}
+button{
+    margin: auto;
+    width: 102%;
+}
+body{
+    margin: auto;
+    width: 50%;
+}
+.add1{
+    width: 100%;
+    margin-left: 50%;
+    margin-top: 1em;
+
+}
+.subtract1{
+    width: 100%;
+    margin-left: 50%;
+    margin-top: 1em;
+
+}
+.multiply1{
+    width: 100%;
+    margin-left: 50%;
+    margin-top: 1em;
+}
+@media only screen and (max-width: 768px) {
+    .add{
+        width: 10em;    
+    }
+    .subtract{
+        width: 10em;
+    }
+    .multiply{
+        width: 10em;
+    }
+    input{
+        width: 100%;
+        margin: auto;
+    }
+    button{
+        width: 105%;
+    }
+}
